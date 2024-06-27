@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+  width: 550px;
+  margin: 0 auto;
+  /* border: 3px solid magenta; */
+  padding: 15px 25px;
+  background: linear-gradient(-45deg, #46bae0, #163c68, #09759c, #039170);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: aliceblue;
+}
+h1 {
+  font-size: 150%;
+}
+/* h2 {
+  font-size: 120%;
+  padding: .25em 0 .25em 25px;
+  cursor: pointer;
+  background: url(css/images/plus.png) no-repeat left center;
+}
+h2.minus {
+  background: url(css/images/minus.png) no-repeat left center;
+} */
+a {
+  color: black;
+  text-decoration: none;
+}
+/* a:focus, a:hover { 
+color: blue; 
+} */
+/* div {
+  display: none;
+} */
+/* div.open {
+  display: block;
+} */
+ul {
+  padding-left: 45px;
+}
+li {
+  padding-bottom: 0.25em;
+}
+p {
+  padding-bottom: 0.25em;
+  padding-left: 25px;
+}
+
+@keyframes gradient {
+  0% {
+    /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 0% 50%;
+  }
+  50% {
+    /*this means 100% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 100% 50%;
+  }
+  100% {
+    /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+    background-position: 0% 50%;
+  }
+}
